@@ -17,7 +17,13 @@
               <span class="section-heading-lower">Contacto</span>
             </h2>
             <!-- Formulario de contacto -->
-            <form>
+
+            <table>
+              {{form.as_table}}
+            </table>
+            
+
+            {% comment %} <form>
                 <div class="form-group">
                     <label>Nombre *</label>
                     <div class="input-group">
@@ -42,7 +48,7 @@
                 <div class="text-center">
                     <input type="submit" class="btn btn-primary btn-block py-2" value="Enviar">
                 </div>
-            </form>
+            </form> {% endcomment %}
             <!-- Fin formulario de contacto -->
           </div>
         </div>
